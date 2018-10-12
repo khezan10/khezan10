@@ -15,4 +15,61 @@ bin-release/
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# informasi untuk Ec# Log
+log
+* .log
+npm-debug.log *
+benang-debug.log *
+benang-error.log *
+
+# Runtime data
+pids
+* .pid
+*.benih
+* .pid.lock
+
+# Direktori untuk lib yang diinstrumentasikan yang dihasilkan oleh jscoverage / JSCover
+lib-cov
+
+# Direktori Cakupan yang digunakan oleh alat seperti istanbul
+cakupan
+
+cakupan uji # nyc
+.nyc_output
+
+# Grunt penyimpanan menengah (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Direktori ketergantungan Bower (https://bower.io/)
+bower_components
+
+# konfigurasi simpul-waf
+.lock-wscript
+
+# Adders biner terkompilasi (http://nodejs.org/api/addons.html)
+build / Release
+
+# Direktori Ketergantungan
+node_modules /
+jspm_packages /
+
+# Typescript file deklarasi v1
+ketikan /
+
+# Direktori cache npm opsional
+.npm
+
+# Cadangan eslint opsional
+.eslintcache
+
+# Riwayat REPL opsional
+.node_repl_history
+
+# Output dari 'paket npm'
+* .tgz
+
+# Benang file Integritas
+integritas .yarn
+
+# file variabel lingkungan dotenv
+.env
